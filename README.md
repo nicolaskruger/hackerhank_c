@@ -7,4 +7,4 @@ Each branch is solution of specific **kata** solution is on `main.c` file.
 3. [Sum numbers in C](https://www.hackerrank.com/challenges/sum-numbers-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/003SumAndDifferenceOfTwoNumbers)
 4. [Function in C](https://www.hackerrank.com/challenges/functions-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/004FunctionsInC)
 5. [Pointers in C](https://www.hackerrank.com/challenges/pointer-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/005PointesInC)
-6. [Conditional Staements in C](https://www.hackerrank.com/challenges/conditional-statements-in-c/problem)
+6. [Conditional Staements in C](https://www.hackerrank.com/challenges/conditional-statements-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/006ConditionalStatementsInC)
