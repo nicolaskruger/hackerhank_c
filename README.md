@@ -1,6 +1,6 @@
 # HackerRank C
 
-solution is on `main.c` file.
+Each branch is solution of specific **kata** solution is on `main.c` file.
 
 1. [kata](https://www.hackerrank.com/challenges/hello-world-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/001helloword)
 2. [kata](https://www.hackerrank.com/challenges/playing-with-characters/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/002playing_with_characters)
