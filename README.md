@@ -13,3 +13,4 @@ Each branch is solution of specific **kata** solution is on `main.c` file.
 9. [Bitwise Operators](https://www.hackerrank.com/challenges/bitwise-operators-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/009BiwiseOperators)
 10. [printing pattern](https://www.hackerrank.com/challenges/printing-pattern-2/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/010PrintingPatternUsingLoops)
 11. [1D Arrays in C](https://www.hackerrank.com/challenges/1d-arrays-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/0111DArraysInC)
+12. [Array Reversal](https://www.hackerrank.com/challenges/reverse-array-c/problem) - [solution]()
