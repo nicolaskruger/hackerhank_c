@@ -2,39 +2,19 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
+#include <string.h>
 
-
-
-int main() 
-{
-    int a, b;
-    scanf("%d\n%d", &a, &b);
-  	// Complete the code.
-    char* number[10]= {
-        "zero",
-        "one",
-        "two",
-        "three",
-        "four",
-        "five",
-        "six",
-        "seven",
-        "eight",
-        "nine"
-    };
-    char* evenOdd[2]={
-        "even",
-        "odd"
-    };
-    for (size_t i = a; i <= b; i++)
-    {
-        if(i<=9)
-            printf("%s\n",number[i]);
-        else{
-            printf("%s\n",evenOdd[i%2]);
-        }
-    }
-    
+int main() {
+	
+    int n;
+    scanf("%d", &n);
+    //Complete the code to calculate the sum of the five digits on n.
+    char str[20];
+    sprintf(str,"%d",n);
+    size_t len = strlen(str);
+    int sum =0;
+    for(size_t i = 0; i<len ;i++)
+        sum+= str[i]-'0';
+    printf("%d",sum);
     return 0;
 }
-
