@@ -6,3 +6,4 @@ Each branch is solution of specific **kata** solution is on `main.c` file.
 2. [kata](https://www.hackerrank.com/challenges/playing-with-characters/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/002playing_with_characters)
 3. [kata](https://www.hackerrank.com/challenges/sum-numbers-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/003SumAndDifferenceOfTwoNumbers)
 4. [kata](https://www.hackerrank.com/challenges/functions-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/004FunctionsInC)
+5. [kata](https://www.hackerrank.com/challenges/pointer-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/005PointesInC)
