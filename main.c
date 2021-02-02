@@ -2,42 +2,25 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-//Complete the following function.
 
+#define max(a,b) \
+   ({ __typeof__ (a) _a = (a); \
+       __typeof__ (b) _b = (b); \
+     _a > _b ? _a : _b; })
 
-void calculate_the_maximum(int n, int k) {
-  //Write your code here.
-    int serialMax[] ={
-        0,//and
-        0,//or
-        0//xor
-    };
-    for (size_t a = 1; a < n; a++)
-        for (size_t b = a+1; b <= n; b++)
-        {
-            /* code */
-            int serialCur[]={
-                a&b,
-                a|b,
-                a^b
-            };
-            for (size_t i = 0; i < 3; i++)
-                if(serialCur[i]>(serialMax[i])
-                    && serialCur[i]<k)
-                    serialMax[i]=serialCur[i];
-             
+int main() 
+{
+
+    int n;
+    scanf("%d", &n);
+  	// Complete the code to print the pattern.
+    const int N = 2*n+1;
+    for (size_t j = 1; j < N-1; j++)
+        for (size_t i = 1; i < N-1; i++){
+            printf("%d ",max(abs(n-j),abs(n-i))+1);
+            if(i==(N-2))
+                printf("\n");
         }
-    for (size_t i = 0; i < 3; i++)
-        printf("%d\n",serialMax[i]);
     
-    
-}
-
-int main() {
-    int n, k;
-  
-    scanf("%d %d", &n, &k);
-    calculate_the_maximum(n, k);
- 
     return 0;
 }
