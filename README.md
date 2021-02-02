@@ -12,3 +12,4 @@ Each branch is solution of specific **kata** solution is on `main.c` file.
 8. [Sum of Digits of a Five Digit Number](https://www.hackerrank.com/challenges/sum-of-digits-of-a-five-digit-number/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/008SumOfDigitsOfAFiveDigitNumber)
 9. [Bitwise Operators](https://www.hackerrank.com/challenges/bitwise-operators-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/009BiwiseOperators)
 10. [printing pattern](https://www.hackerrank.com/challenges/printing-pattern-2/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/010PrintingPatternUsingLoops)
+11. [1D Arrays in C](https://www.hackerrank.com/challenges/1d-arrays-in-c/problem) - [solution]()
