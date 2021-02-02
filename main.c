@@ -2,19 +2,42 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-#include <string.h>
+//Complete the following function.
+
+
+void calculate_the_maximum(int n, int k) {
+  //Write your code here.
+    int serialMax[] ={
+        0,//and
+        0,//or
+        0//xor
+    };
+    for (size_t a = 1; a < n; a++)
+        for (size_t b = a+1; b <= n; b++)
+        {
+            /* code */
+            int serialCur[]={
+                a&b,
+                a|b,
+                a^b
+            };
+            for (size_t i = 0; i < 3; i++)
+                if(serialCur[i]>(serialMax[i])
+                    && serialCur[i]<k)
+                    serialMax[i]=serialCur[i];
+             
+        }
+    for (size_t i = 0; i < 3; i++)
+        printf("%d\n",serialMax[i]);
+    
+    
+}
 
 int main() {
-	
-    int n;
-    scanf("%d", &n);
-    //Complete the code to calculate the sum of the five digits on n.
-    char str[20];
-    sprintf(str,"%d",n);
-    size_t len = strlen(str);
-    int sum =0;
-    for(size_t i = 0; i<len ;i++)
-        sum+= str[i]-'0';
-    printf("%d",sum);
+    int n, k;
+  
+    scanf("%d %d", &n, &k);
+    calculate_the_maximum(n, k);
+ 
     return 0;
 }
