@@ -8,4 +8,4 @@ Each branch is solution of specific **kata** solution is on `main.c` file.
 4. [Function in C](https://www.hackerrank.com/challenges/functions-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/004FunctionsInC)
 5. [Pointers in C](https://www.hackerrank.com/challenges/pointer-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/005PointesInC)
 6. [Conditional Staements in C](https://www.hackerrank.com/challenges/conditional-statements-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/006ConditionalStatementsInC)
-7. [For Loop in C](https://www.hackerrank.com/challenges/for-loop-in-c/problem) - [solution]();
+7. [For Loop in C](https://www.hackerrank.com/challenges/for-loop-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/007ForLoopInC)
