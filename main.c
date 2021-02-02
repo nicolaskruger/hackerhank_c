@@ -1,20 +1,29 @@
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
 #include <stdlib.h>
 
-int main() {
 
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-    int n;
-    int sum=0;
-    int buff;
-    scanf("%d",&n);
-    for (size_t i = 0; i < n; i++)
-    {
-        scanf("%d",&buff);
-        sum+=buff;
+void swap(int* arr, int a, int b){
+    int buff = arr[a];
+    arr[a]=arr[b];
+    arr[b]=buff;
+}
+
+int main()
+{
+    int num, *arr, i;
+    scanf("%d", &num);
+    arr = (int*) malloc(num * sizeof(int));
+    for(i = 0; i < num; i++) {
+        scanf("%d", arr + i);
     }
-    printf("%d",sum);
+
+
+    /* Write the logic to reverse the array. */
+    for (size_t i = 0; i < num/2; i++)
+        swap(arr,i,num-1-i);
+    
+
+    for(i = 0; i < num; i++)
+        printf("%d ", *(arr + i));
     return 0;
 }
