@@ -9,4 +9,4 @@ Each branch is solution of specific **kata** solution is on `main.c` file.
 5. [Pointers in C](https://www.hackerrank.com/challenges/pointer-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/005PointesInC)
 6. [Conditional Staements in C](https://www.hackerrank.com/challenges/conditional-statements-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/006ConditionalStatementsInC)
 7. [For Loop in C](https://www.hackerrank.com/challenges/for-loop-in-c/problem) - [solution](https://github.com/nicolaskruger/hackerhank_c/tree/007ForLoopInC)
-8. [Sum of Digits of a Five Digit Number](https://www.hackerrank.com/challenges/sum-of-digits-of-a-five-digit-number/problem)
+8. [Sum of Digits of a Five Digit Number](https://www.hackerrank.com/challenges/sum-of-digits-of-a-five-digit-number/problem) - [solution]()
